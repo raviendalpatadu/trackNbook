@@ -1,0 +1,1437 @@
+:root {
+  --collection-1-primary-blue: rgba(33, 133, 213, 1);
+  --collection-1-background-fade: rgba(71, 178, 255, 0.15);
+  --collection-1-seat: rgba(33, 133, 213, 0);
+}
+
+.card-contact {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  margin: 67px 20px 75px -8px;
+  width: 303px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 19px;
+  padding-right: 25px;
+  text-align: center;
+  color: #1f2124;
+  float: left;
+  width: 422px;
+}
+
+.mr--13 {
+  margin-right: -13px;
+}
+
+.mt--20 {
+  margin-top: -20px;
+}
+.mt--70 {
+  margin-top: -70px;
+}
+.notificationCard-SG {
+
+  height: fit-content;
+  background: rgb(255, 255, 255);
+  padding: 0px 0px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
+  border-radius: 8px 8px 0 0;
+  width: fit-content;
+}
+
+.bg-train-driver {
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 109%;
+  flex-shrink: 0;
+  background: url("../images/checker-mobile.jpg"),
+    lightgray -3.491px -930.014px / 100.77% 290.365% no-repeat;
+  background-position-y: 100% !important;
+  background-position-x: center !important;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-ticket-checker {
+    background: url("../images/checker-mobile.jpg"), no-repeat;
+    background-size: cover;
+  }
+
+  .mobile-min-height-80 {
+    min-height: 80vh !important;
+  }
+}
+.ticketchecker-container {
+  //display: inline-grid;
+  max-width: 350px;
+  height: fit-content;
+  background: #f8f9fd;
+
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 0%,
+    rgb(244, 247, 251) 100%
+  );
+  //border-radius: 40px;
+  padding: 25px 35px;
+  // border: 5px solid rgb(255, 255, 255);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+  margin: 20px;
+}
+
+/* Station Master update Arrival */
+.update-arrival {
+  padding: 46px 23px;
+}
+
+.card-update-arrival {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  margin: 50px 20px 20px 3px;
+  width: 484px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 19px;
+  padding-right: 25px;
+  text-align: left;
+  color: #1f2124;
+  float: left;
+}
+
+/* Station Master Dashboard */
+
+.col-10-ach-d-flex-flex-column
+{
+  width: 1200%
+}
+.dashboard-card-sm-train {
+  height: 107%;
+  padding: 24px 19px;
+  border-radius: 22px;
+  box-shadow: 0 25px 37px 0 rgba(65, 69, 88, 0.1), 0 22px 8px 0 rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+
+.dashboard-card-sm-inquiry {
+  height: 107%;
+  padding: 24px 19px;
+  border-radius: 22px;
+  box-shadow: 0 25px 37px 0 rgba(65, 69, 88, 0.1), 0 22px 8px 0 rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+.dashboard-card-sm-waitlist {
+  height: 107%;
+  padding: 24px 19px;
+  border-radius: 22px;
+  box-shadow: 0 25px 37px 0 rgba(65, 69, 88, 0.1), 0 22px 8px 0 rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+.dashboard-card-sm2 {
+  height: 130%;
+  padding: 24px 19px;
+  border-radius: 5px;
+  box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1),
+    0 3px 6px 0 rgba(0, 0, 0, 0.07);
+    width: 302px
+}
+
+.dashboard-card-sm-font1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #171717;
+  align-items: start !important; /* Assuming this is applied to a flex container */
+}
+.dashboard-card-sm-font2 {
+  font-size: 26px;
+    font-weight: 300;
+  color: #0f8eea;
+  align-items: start !important; /* Assuming this is applied to a flex container */
+}
+
+
+
+
+
+/* Train Driver Dashboard */
+.ach-widgets {
+  display: flex;
+  width: auto;
+  align-items: flex-start;
+  gap: 19.44px;
+  position: relative;
+}
+
+.ach-widgets .ach-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7.78px;
+  padding: 23.33px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--bgwhite-100);
+  border-radius: 23.33px;
+  box-shadow: 0px 1.94px 13.61px rgba(0, 99, 231, 0.0588235294);
+}
+
+.ach-widgets .div {
+  display: flex;
+  flex-direction: column;
+  width: 124.44px;
+  align-items: flex-start;
+  gap: 15.56px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.ach-widgets .ach-frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 7.78px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -17.56px;
+}
+
+.ach-widgets .impressions {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -0.97px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--textgray);
+  font-size: 11.7px;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  white-space: nowrap;
+}
+
+.ach-widgets .number {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--textdark);
+  font-size: 31.1px;
+  letter-spacing: -0.49px;
+  line-height: normal;
+}
+
+.ach-widgets .ach-frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15.56px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.ach-widgets .ach-frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 7.78px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.ach-txt-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  white-space: nowrap;
+}
+
+.ach-txt-wrapper2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  white-space: nowrap;
+}
+
+.ach-box {
+  width: 1002px;
+  height: 438px;
+}
+
+.ach-box .group {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1002px;
+  height: 438px;
+}
+
+.ach-box .group-wrapper {
+  height: 438px;
+}
+
+.card-dashboard-td {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 20px;
+  text-align: center;
+  color: #1f2124;
+  float: left;
+}
+@media (max-width: 768px) {
+  .card-dashboard-td:first-child {
+    margin-top: 20px;
+  }
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.ach-icon {
+  margin: 5px 0;
+}
+.ach-icon svg {
+  width: 10px;
+  height: 100px;
+}
+.ach-icon svg path {
+  fill: #0085e4;
+}
+
+.ach-icon1 {
+  margin: 50px 0;
+}
+.ach-icon1 svg {
+  width: 100px;
+  height: 100px;
+}
+.ach-icon1 svg path {
+  fill: #f5013e;
+}
+
+.features ul {
+  padding: 0;
+  margin: 20px 0 50px 0;
+  list-style-type: none;
+}
+.features ul li {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.features ul li span {
+  border-bottom: 2px dotted #0085e4;
+}
+
+.btn-td {
+  display: block;
+  background: #0085e4;
+  color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.9);
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+}
+.btn-td:hover {
+  opacity: 0.7;
+}
+
+.btn1-td {
+  display: block;
+  background: #f5013e;
+  color: white;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.9);
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+}
+.btn1-td:hover {
+  opacity: 0.7;
+}
+
+/* ............................................................. */
+/* Terms and Conditions */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.accordion-terms {
+  color: #000;
+  font-size: 14px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Background box of each para */
+.h2-terms {
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+
+
+/* Train Driver - Update Location */
+.button-base-update-location {
+  background: var(--white, #ffffff);
+  border: 1px solid var(--gray-300, #d0d5dd);
+  border-radius: 8px;
+  padding: 8px 14px 8px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: 67px;
+  box-shadow: var(--shadow-xs-box-shadow, 0px 1px 2px 0px rgba(16, 24, 40, 0.05));
+  overflow: hidden;
+  margin-left: 131px;
+}
+
+.bg-ul-Selected-Blue {
+  background-color: #cae1ff;
+}
+
+thead tr {
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--gray-200, #eaecf0);
+  background: var(--gray-50, #f9fafb);
+}
+
+.dropdown-update-location > span {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  position: relative;
+  color: var(--Secondary-Gray);
+  border: 1px solid #ccc;
+  background: var(--White);
+  transition: all 0.3s ease;
+  width: 222px;
+}
+
+.badge-base-update-location {
+  background: var(--gray-100, #f2f4f7);
+  border-radius: 16px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 80px;
+}
+
+/* Train Driver - Update delay */
+.card-update-delay {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  width: 121%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 39px;
+  padding-right: 25px;
+  text-align: left;
+  color: #1f2124;
+  float: left;
+  margin-left: 150px;
+  margin-top: 18px;
+}
+.input-field-update-delay  textarea {
+  background: var(--w-background, #ffffff);
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  resize: none; /* Prevent resizing of textarea */
+  width: 197%; /* Make the textarea fill its container */
+}
+
+
+
+
+.ad-width-70 {
+  width: 70vw;
+}
+
+.update-location {
+  padding: 27px 50px;
+}
+
+.button-base-add-location {
+  background: var(--white, #ffffff);
+  border: 1px solid var(--gray-300, #d0d5dd);
+  border-radius: 8px;
+  padding: 8px 14px 8px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: 67px;
+  box-shadow: var(--shadow-xs-box-shadow, 0px 1px 2px 0px rgba(16, 24, 40, 0.05));
+  overflow: hidden;
+  margin-left: 44px;
+}
+
+.bg-ul-Selected-Blue {
+  background-color: #cae1ff;
+}
+
+thead tr {
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--gray-200, #eaecf0);
+  background: var(--gray-50, #f9fafb);
+}
+
+.input-field-dropdown-al > span {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  position: relative;
+  color: var(--Secondary-Gray);
+  border: 1px solid #ccc;
+  background: var(--White);
+  transition: all 0.3s ease;
+  width: 222px;
+}
+
+.badge-base-add-location {
+  background: var(--gray-100, #f2f4f7);
+  border-radius: 16px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 80px;
+}
+
+.card-add-location {
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  // margin: 67px 20px 75px 0px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  color: #1f2124;
+  float: left;
+}
+
+.add-location-container {
+  width: 100%;
+}
+
+.add-location-container-box {
+  background-color: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.justify-content-add-location {
+  justify-content: flex-start;
+  width: 339px;
+}
+
+.add-location-g-8 {
+  gap: 17px;
+  margin-left: -4px;
+}
+
+.dropdown2-add-location {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  position: relative;
+  color: var(--Secondary-Gray);
+  border: 1px solid #ccc;
+  background: var(--White);
+  transition: all 0.3s ease;
+  width: 250px;
+}
+
+/* Update train Location */
+.line-update-location {
+  width: 269px;
+  border-bottom: 2px solid #000;
+}
+
+.text-field-box-top-update-location {
+  display: flex;
+  width: 25%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.text-field-box-update-location {
+  display: flex;
+  width: 95%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.form-group-update-location {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.head-box-update-location {
+  position: relative;
+  display: flex;
+  width: 83%;
+  height: 36px;
+  padding: 1px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: rgba(102, 102, 102, 0.94);
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.activation-field-update-location {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(923.5% - 10px);
+  gap: 20px;
+}
+
+.button-blue-update-location {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: #2185d5;
+  cursor: pointer;
+  color: white;
+  width: 13%;
+  /* Set the text color to white */
+  /* You can add additional styling here, such as padding, border, etc. */
+}
+
+.top-head-update-location {
+  display: inline-flex;
+  padding: 21px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: rgba(33, 133, 213, 0.77);
+  position: absolute;
+  top: 0;
+  margin-top: -23px;
+  margin-left: 222px;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.444px;
+  /* 121.528% */
+}
+
+.fields-update-location {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.text-update-location {
+  width: 175px;
+  color: var(--sementics-color-fg-default, #18181b);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+  text-align: justify;
+}
+
+/* ....................................................................... */
+/* Update train delay */
+.delay-g-8 {
+  gap: 8px;
+  margin-right: 12px;
+}
+
+.delay-container {
+  width: 100%;
+}
+
+.delay-container-box {
+  background-color: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  margin-left: -143px;
+  margin-top: 56px;
+}
+
+.dropdown2-update-delay {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  position: relative;
+  color: var(--Secondary-Gray);
+  border: 1px solid #ccc;
+  background: var(--White);
+  transition: all 0.3s ease;
+  width: 221px; /* Adjusted for mobile responsiveness */
+  max-width: 221px; /* Added to ensure it doesn't exceed the container width */
+}
+
+.input-text-update-delay {
+  background: var(--w-background, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 128%; /* Adjusted for mobile responsiveness */
+  max-width: 128%; /* Added to ensure it doesn't exceed the container width */
+  height: 100px;
+}
+
+.input-field4-update-delay {
+  background: var(--w-background, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 219px;
+}
+
+.delay-details-update-delay {
+  padding: 15px; /* Adjusted padding for mobile */
+  height: auto; /* Changed height to auto for dynamic sizing */
+}
+
+.type-here-update-delay {
+  font-size: 12px; /* Adjusted font size for mobile */
+  line-height: 20px; /* Adjusted line height for mobile */
+}
+
+/* Add train - New */
+.activation-field-add-train {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(410% - 10px);
+  gap: 0px;
+}
+
+.button-blue-add-train {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: #2185d5;
+  cursor: pointer;
+  color: white;
+  width: 15%;
+  margin-left: 50px;
+  margin-top: 20px;
+  /* Set the text color to white */
+  /* You can add additional styling here, such as padding, border, etc. */
+}
+
+.button-white-add-train {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid #2185d5;
+  background: var(--W-Background, #fff);
+  margin-right: 311px;
+  width: 18%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.top-head-add-train {
+  display: inline-flex;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: rgba(33, 133, 213, 0.77);
+  position: absolute;
+  top: 0;
+  margin-top: 128px;
+  margin-left: 179px;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.444px;
+  /* 121.528% */
+}
+
+.head-box-add-train {
+  position: relative;
+  display: flex;
+  width: 83%;
+  height: 36px;
+  padding: 1px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: rgba(102, 102, 102, 0.94);
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.add-train-new {
+  margin-top: 20%;
+  display: flex;
+  width: 500px;
+  height: auto;
+  padding: 50px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-group-add-train {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.text-field-add-train {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.text-field-box-add-train {
+  display: flex;
+  width: 93%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.box-3-add-train {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 18px;
+}
+
+.box-4-add-train {
+  display: flex;
+  gap: 59px;
+}
+
+.box-add-train {
+  width: calc(25% - 0px);
+}
+
+.inputs1-add-train {
+  width: 114%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.inputs2-add-train {
+  width: 137%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.input1-add-train {
+  width: 90%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.input2-add-train {
+  width: 372%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.lab-small-add-train {
+  color: #666;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 10px;
+  /* 138.462% */
+}
+
+/* ................................................ */
+/* Manage Schedule */
+.trains-available-manage-schedule {
+  padding: 12px 24px;
+}
+
+/* .................................................*/
+/* Contact*/
+.activation-field-contact {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(156% - 10px);
+  gap: 20px;
+}
+
+.button-white-contact {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid #2185d5;
+  background: var(--W-Background, #fff);
+  margin-right: 268px;
+  width: 9%;
+  cursor: pointer;
+}
+
+.contact {
+  margin-top: 4%;
+  display: flex;
+  width: 500px;
+  height: 700px;
+  padding: 51px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-group-contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.text-field-contact {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.text-field-box-contact {
+  display: flex;
+  width: 93%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.text-field-box-message-contact {
+  display: flex;
+  width: 93%;
+  height: 160px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+/* ............................................................ */
+/* Add schedule*/
+.activation-field-adsc {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(410% - 10px);
+  gap: 0px;
+}
+
+.button-blue-adsc {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: #2185d5;
+  cursor: pointer;
+  color: white;
+  width: 15%;
+  margin-left: 50px;
+  margin-top: 20px;
+  /* Set the text color to white */
+  /* You can add additional styling here, such as padding, border, etc. */
+}
+
+.button-white-adsc {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid #2185d5;
+  background: var(--W-Background, #fff);
+  margin-right: 311px;
+  width: 18%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.top-head-adsc {
+  display: inline-flex;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: rgba(33, 133, 213, 0.77);
+  position: absolute;
+  top: 0;
+  margin-top: 128px;
+  margin-left: 179px;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.444px;
+  /* 121.528% */
+}
+
+.head-box-adsc {
+  position: relative;
+  display: flex;
+  width: 83%;
+  height: 36px;
+  padding: 1px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: rgba(102, 102, 102, 0.94);
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.add-schedule {
+  margin-top: 20%;
+  display: flex;
+  width: 500px;
+  height: auto;
+  padding: 50px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-group-adsc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.text-field-adsc {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.text-field-box-adsc {
+  display: flex;
+  width: 93%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.box-3-adsc {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 18px;
+}
+
+.box-adsc {
+  width: calc(25% - 0px);
+}
+
+.inputs-adsc {
+  width: 90%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.input1-adsc {
+  width: 90%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.input2-adsc {
+  width: 232%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+
+.lab-small-adsc {
+  color: #666;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* 138.462% */
+}
+
+/* ......................................  */
+.frame1 {
+  width: 682px;
+  height: 333px;
+  background-color: #fafafa;
+}
+
+/* .badge-base {
+  background: var(--gray-100, #f2f4f7);
+  border-radius: 16px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+} */
+.colorful-table {
+  background-color: lightblue;
+  color: white; /* Set the text color to white for better visibility on a black background */
+  /* .button {
+    display: inline-flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;*/
+  /* Add margin to move the button to the right */
+  /* margin-left: 10px; Adjust this value to control the amount of spacing */
+  /* margin-right: 0px; Set margin-right to 0 to ensure no extra spacing on the right */
+  /*} */
+  /* .button:hover {
+    background-color: lightgray;
+    color: blue;
+  }
+   */
+  /*Train Book Update Styles*/
+}
+.colorful-table .dashboard-container {
+  background-color: #fafafa; /* Black background color */
+  width: 645px;
+  height: 740px;
+  margin: 50px auto 0 auto; /* Add margin to create space at the top */
+  padding: 20px;
+  color: #fff;
+}
+.colorful-table .card.card-body {
+  background-color: #fff; /* Set the background color for the card within the black container */
+  color: #000; /* Set the text color for the card */
+}
+.colorful-table .image-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colorful-table .field-select {
+  height: 78px;
+}
+.colorful-table .form1 {
+  background-color: #fafafa;
+  padding: 10px;
+}
+.colorful-table .activation-field {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.colorful-table .activation-field a {
+  text-decoration-line: underline;
+}
+.colorful-table .field {
+  margin-bottom: 6px;
+}
+.colorful-table .text-field {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+.colorful-table .text-field1 {
+  display: flex;
+  width: 90%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+}
+.colorful-table .select-field {
+  display: flex;
+  width: 135.492px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: var(--W-Background, #fff);
+  margin-top: 18px;
+  margin-left: 40px;
+}
+.colorful-table .image {
+  margin-left: 182px;
+  width: 542px;
+}
+.colorful-table main {
+  height: -webkit-fill-available;
+}
+.colorful-table .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 740px;
+}
+.colorful-table .center-form {
+  background-color: #655e97;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.colorful-table .center_form1 {
+  background-color: #655e97;
+  width: 23vw;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 14vh;
+}
+.colorful-table .update-schedule {
+  display: flex;
+  width: 645px;
+  height: 740px;
+  padding: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.colorful-table .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.colorful-table .card-dashboard {
+  margin: 5px 5px;
+  padding: 10px 20px;
+  background-color: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Poppins-Medium", Helvetica;
+  border-radius: 10px;
+}/*# sourceMappingURL=achchu.css.map */
+
+
+
