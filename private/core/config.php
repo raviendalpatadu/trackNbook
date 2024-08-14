@@ -29,5 +29,8 @@ define ('MAP_API_KEY', $_ENV['MAP_API_KEY']);
 define('MERCHENT_ID', $_ENV['MERCHENT_ID']);
 define('PAYHERE_SECRET', $_ENV['PAY_HERE_SECRET']);
 
-
+echo "config file loaded";  
+echo "<pre>";
+print_r($_ENV);
+echo "</pre>";
 ?>
