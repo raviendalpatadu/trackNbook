@@ -31,4 +31,5 @@ As a second-year project, TrackNBook was built entirely from scratch without the
 **Contributing**
 
 This repository is currently for showcase purposes only. Future development and contributions are welcome, but please reach out to the developers for further discussion.
-![image](https://github.com/raviendalpatadu/trackNbook/assets/102800797/dea9d51f-707a-4bdb-a921-5dadc7236ea3)
+![image](https://github.com/raviendalpatadu/trackNbook/assets/102800797/3139a27d-0007-481b-9938-71969bdb78e6)
+
